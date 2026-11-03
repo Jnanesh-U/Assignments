@@ -1,0 +1,14 @@
+//3. Program to Print a Message if a Negative Number is Entered Using if-else
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    if (num < 0) {
+        printf("Negative number entered");
+    }
+    else {
+        printf("Positive number entered");
+    }
+    return 0;
+}
